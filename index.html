@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment</title>
+    <style>
+    body{
+        background-color:cornsilk;
+    }
+    th{
+        background-color: orangered;
+        color: white;
+        padding: 5px;
+    }
+    .image{
+        width: 400px;
+        height: 250px;
+    }
+    .header{
+        background-color: #f04e23;
+        color: white;
+        text-align: center;
+        padding: 2px;
+    }
+        input, textarea {
+            width: 98%;
+            padding: 8px;
+        }
+   
+</style>
+</head>
+<body>
+    <div class="header">
+    <h1>Delicious Recipe</h1>
+    <p>Your source for mouth watering dish</p>
+    </div>
+    <h2>Recipe of the day: Spaghetti Carbonara</h2>
+    <div class="image">
+    <p>Spaghetti Carbonara is a classic Italion pasta dish made with eggs, cheese, panceta and pepper. It's simple, delicious, and perfect for any occasion</p>
+    <img src="Assets/2.jpg" alt="This is a Spaghetti Image" title="Spaghetti Image" loading="lazy">
+    </div>
+    <br>
+    <h2>Ingredients</h2>
+    <ul>
+        <li>200g spaghetti</li>
+        <li>100g pancetta</li>
+        <li>2 Large eggs</li>
+        <li>50g Pecorino cheese</li>
+        <li>50g Parmesan</li>
+        <li>Black pepper</li>
+        <li>Salt</li>
+    </ul>
+    <h2>Steps to prepare</h2>
+    <ol>
+        <li>Boil the spaghetti is salted water until al dente</li>
+        <li>Fry the pancetta until crispy</li>
+        <li>Beat the eggs and mix grated cheese</li>
+        <li>Drain the spaghetti and mix with pancetta</li>
+        <li>Remove from heat and stir in the egg and cheese mixture</li>
+        <li>Season with black pepper and serve immediatly</li>
+    </ol>
+    <h2>Nutritional Information</h2>
+    <table border="1" style=" width: 100%; border-collapse: collapse;border-color: black;">
+        <tr>
+        <th>Nutrient</th>
+        <th>Amount per Serving</th>
+    </tr>
+    <tr>
+        <td>Calories</td>
+        <td>500</td>
+    </tr>
+    <tr>
+        <td>Protein</td>
+        <td>25g</td>
+        
+    </tr>
+    <tr>
+        <td>Carbohydrates</td>
+        <td>55g</td>
+    </tr>
+    <tr>
+        <td>Fat</td>
+        <td>20g</td>
+    </tr>
+    </table>
+    <h2>Cooking Tutorial VideoS</h2>
+    <iframe width="1500px"height="300px" src="https://www.youtube.com/embed/3AAdKl1UYZs" frameborder="0" allowfullscreen></iframe>
+    <div class="input, textarea">
+    <h2>Submit Your Recipe</h2>
+    <form >
+        <label for="Name">Name:</label><br>
+        <input type="text" name="Name" id="Name" required><br>
+
+        <label for="Email">Email:</label><br>
+        <input type="email" name="Email" id="Email" required><br>
+ 
+        <label for="Recipe">Recipe:</label><br>
+        <textarea name="Recipe" id="Recipe" rows="10" cols="20"></textarea><br>
+        
+        <button type="submit">Submit</button>
+    </form>
+</div>
+</body>
+</html>
